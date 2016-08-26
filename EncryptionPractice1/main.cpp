@@ -6,10 +6,24 @@
 //  Copyright © 2016 zach lee. All rights reserved.
 //
 
-#include <iostream>
+#include "encryptionPractice.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+    encryptionPractice obj;
+    char key = obj.createKey();
+    string enStr,dStr,name;
+    cin >> name;
+    
+    string str = "Hello, my name is: " + name + " !!!";
+    
+    enStr = obj.encrypt(key, str);
+    cout << enStr << endl;
+    
+    dStr = obj.decrypt(key, enStr);
+    cout << dStr << endl;
+    cout << key << endl;
+    
+    
     return 0;
 }

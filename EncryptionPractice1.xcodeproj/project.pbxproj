@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2BAF487B1D6FC20100DD76CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF487A1D6FC20100DD76CB /* main.cpp */; };
+		2BAF48831D6FC23200DD76CB /* encryptionPractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF48811D6FC23200DD76CB /* encryptionPractice.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		2BAF48771D6FC20100DD76CB /* EncryptionPractice1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EncryptionPractice1; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAF487A1D6FC20100DD76CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2BAF48811D6FC23200DD76CB /* encryptionPractice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encryptionPractice.cpp; sourceTree = "<group>"; };
+		2BAF48821D6FC23200DD76CB /* encryptionPractice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = encryptionPractice.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				2BAF487A1D6FC20100DD76CB /* main.cpp */,
+				2BAF48811D6FC23200DD76CB /* encryptionPractice.cpp */,
+				2BAF48821D6FC23200DD76CB /* encryptionPractice.hpp */,
 			);
 			path = EncryptionPractice1;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BAF487B1D6FC20100DD76CB /* main.cpp in Sources */,
+				2BAF48831D6FC23200DD76CB /* encryptionPractice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
